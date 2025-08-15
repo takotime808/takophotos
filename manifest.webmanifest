@@ -1,0 +1,23 @@
+---
+layout: null
+---
+{
+  "name": "TAKOPHOTOS",
+  "short_name": "Takophotos",
+  "start_url": "{{ site.baseurl }}/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "{{ site.baseurl }}/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "{{ site.baseurl }}/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

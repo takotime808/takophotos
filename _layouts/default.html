@@ -17,9 +17,17 @@
 
     <!-- {% include newsletter.html %} -->
 
-    {% include footer.html %}
+   {% include footer.html %}
 
-   {% include Scroll_to_Top.html %}  
+   {% include Scroll_to_Top.html %}
+
+   <script>
+   if ('serviceWorker' in navigator) {
+     window.addEventListener('load', function() {
+       navigator.serviceWorker.register('{{ site.baseurl }}/service-worker.js');
+     });
+   }
+   </script>
 
 </body>
 

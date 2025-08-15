@@ -23,6 +23,10 @@ The **BASEURL** should say `/repositoryname`
 
 If there are problems with loading assets like CSS files and images, make sure that both **URL** and **BASEURL** are set correctly.
 
+### Progressive Web App
+
+This project ships with a basic service worker and web app manifest so it can be installed as a Progressive Web App. The site is automatically built and deployed to GitHub Pages via a GitHub Actions workflow.
+
 ----
 
 **Not for HTTPS served repos.**
