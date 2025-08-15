@@ -14,6 +14,14 @@
 
     {{ content }}
 
+    <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('{{ site.baseurl }}/service-worker.js');
+      });
+    }
+    </script>
+
     </body>
 
 </html>
