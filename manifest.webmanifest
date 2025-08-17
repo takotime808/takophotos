@@ -10,6 +10,12 @@ layout: null
   "theme_color": "#ffffff",
   "icons": [
     {
+      "src": "{{ site.baseurl }}/logo-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
       "src": "{{ site.baseurl }}/logo.png",
       "sizes": "512x512",
       "type": "image/png"
